@@ -1,0 +1,179 @@
+.top {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 9;
+}
+
+.kron {
+	z-index: 5;
+	position: fixed;
+	top: 10px;
+	left: 35em;
+}
+
+.kron h1 {
+	font-size: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+.kron p {
+	text-align: center;
+	font-size: 20;
+	padding: 0;
+	position: relative;
+	top: -2em;
+
+}
+
+.nav {
+	position: fixed;
+	top: 5em;
+	left: 27em;
+	z-index: 9;
+
+}
+.nav li {
+	display: inline-block;
+	padding: 1px 30px 10px 30px;
+
+}
+.nav > ul > li:first-child {
+	position: fixed;
+	left: 35em;
+
+}
+.nav > ul >li:nth-child(2) {
+	position: fixed;
+	left:39em;
+}
+.nav >ul >li:nth-child(3){
+	position: fixed;
+	left: 46em;
+}
+.nav >ul >li:nth-child(4){
+	position: fixed;
+	left: 53em;
+}
+
+.hideme {
+	display:none;
+	padding: 10px;
+	border: 2px solid #8c0900;
+	border-radius: 10px;
+	clear: both;
+}
+
+.nav li:hover > ul, .nav li:hover >ul>li,.nav li:hover >ul>li {
+	display: block;
+	background: #3a5a2b;
+	padding-right: 15px;
+	top: 15px;
+	left: 15px;
+	position: static;
+	margin-top: 1em;
+	clear:both;
+	
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#8c0900;
+}
+
+.gubbe {
+	width: 25%;
+	height: 90%;
+	position: fixed;
+	left: -3px;
+	top: 137px;
+	
+}
+.gumma {
+	width: 28%;
+	height: 90%;
+	position: fixed;
+	right: -10px;
+	top: 137px;
+	
+}
+.tapet {
+	width: 105%;
+	height:150px;
+	position: fixed;
+	top: -10px;
+	left: -20px;
+}
+.fill {
+	width: 47%;
+	margin-left: 25%;
+	margin-top: 135px;
+	float: left;
+
+}
+
+.plank {
+	width: 60%;
+	height: 100%;
+	position: fixed;
+	left: 25em;
+	top: 100px;
+	z-index: -1;
+}
+
+#cont div {
+	background: #3b5b2c;
+	opacity: 0.75;
+	clear: both;
+	padding: 10px;
+	border: 4px solid #8c0900;
+	border-radius: 15px;
+	margin: 15px 2px;
+	width: 35em;
+}
+
+#cont div img {
+	width: 200px;
+	height: 150px;
+	border: 2px solid #8c0900;
+	border-radius: 5px;
+	margin: 0;
+}
+
+#cont div:nth-child(odd), #cont div:nth-child(odd)> img, #cont div:nth-child(odd)> p {
+	float: left;
+	clear: none;
+
+}
+
+#cont div:nth-child(even), #cont div:nth-child(even)> img, #cont div:nth-child(even)> p {
+	float: right;
+	clear: none;
+}
+
+.nav>img {
+	border: 2px solid #8c0900;
+	border-radius: 10px;
+	z-index: 5;
+}
+
+
+#rest {
+	display: none;
+}
+
+button {
+	background: none !important;
+	border: none;
+	padding: 0 !important;
+	color: black;
+	margin:1px;
+}
+
+button:hover {
+	color:#8c0900;
+}
